@@ -17,7 +17,6 @@ public class pe5 {
 		String[] s = lines.trim().split(" ");
 
 			for (int i = 0; i < s.length; i++) {
-				
 			sum += Integer.parseInt(s[i]);
 			}
 		
