@@ -45,7 +45,7 @@ public class Maintest {
 		l.add(s4);
 		l.add(s5);
 		l.add(s6);
-		Collections.sort(l, new StudentSorter());;
+		Collections.sort(l, new StudentSorter());
 		System.out.println("Id.   Name    Age");
 		 for(Student a: l)   
 	         System.out.println(a.getId()+".  "+a.getName() + "   "+a.getAge());
